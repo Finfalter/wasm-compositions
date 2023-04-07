@@ -1,8 +1,7 @@
 # wasm-compositions
 
-1. in *exporter* do `cargo build --target wasm32-unknown-unknown`
-2. in *importer* do `cargo build --target wasm32-unknown-unknown`
-3. to *target/wasm32-unknown-unknown/debug* copy `wasi_snapshot_preview1.wasm`
+1. do `cargo build --target wasm32-unknown-unknown`
+2. to *target/wasm32-unknown-unknown/debug* copy `wasi_snapshot_preview1.wasm`
 3. in *target/wasm32-unknown-unknown/debug* do all of the following:
 
 ```bash
