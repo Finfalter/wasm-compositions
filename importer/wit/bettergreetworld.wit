@@ -1,0 +1,12 @@
+interface imports {
+  greet: func(s: string) -> string
+}
+
+interface exports {
+  greet: func(s: string) -> string
+}
+
+default world bettergreetworld {
+  import greeting: self.imports
+  export exports: self.exports
+}

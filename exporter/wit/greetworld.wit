@@ -1,0 +1,7 @@
+interface exports {
+  greet: func(s: string) -> string
+}
+
+default world greetworld {
+  export greeting: self.exports
+}
